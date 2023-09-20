@@ -1,0 +1,42 @@
+html,body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: url(startup2.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Lumanosimo', cursive;
+f   font-family: 'Rubik', sans-serif;
+}
+h1,h2 {
+   color: #4F709C;
+/*   text-transform: uppercase;*/
+   margin-top: 12px;
+   margin-right: 8px;
+}
+.buffer {
+    height: 8rem;
+}
+hr {
+    color: #F1C376;
+    border: 3px solid  #F1C376;
+    margin: 10px auto;
+    border-radius: 10px; 
+    max-width: 50px;
+    opacity: 0.6;
+}
+.btm1 {
+    color: white;
+    background-color: #526D82;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    border:1px solid #526D82;
+    margin-right: 8px;
+}
+.btm1:hover {
+    color: black;
+    background-color:#F1C376 ;
+    border-color:#F1C376 ;
+    transform: scale(1.1);
+}
